@@ -1,6 +1,7 @@
 import Approach from "./Approach";
 import Climb from "./Climb";
 import Protection from "./Protecting";
+import Descent from "./Descent";
 import jsFullImg from "./assets/5300255_large_1557853994.jpg";
 import jsCloseUp from "./assets/106099080_large_1558647731.jpg";
 import jsApproach from "./assets/112783725_large_1494314708.jpg";
@@ -16,6 +17,8 @@ function App() {
         <Climb />
         <h2 className="text-lg font-semibold">Approach</h2>
         <Approach />
+        <h2 className="text-lg font-semibold">Descent</h2>
+        <Descent />
         <h2 className="text-lg font-semibold">Protection</h2>
         <Protection />
         <h2 className="text-lg font-semibold">Images</h2>
@@ -36,7 +39,6 @@ function App() {
 export default App;
 
 /* 
-jubilant Song
 Tunnel vision
 Domestic Bliss
 Lotta Balls
